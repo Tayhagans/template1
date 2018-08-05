@@ -102,7 +102,13 @@ background-color:#fff;
   font-family: 'Lora', serif;
 /* font-family: 'Dancing Script', cursive; */
   font-size:30px; 
+  letter-spacing:8px; 
+    color: #00d3c7; 
 }
+
+/* .about-text, .vision {
+   color: #00d3c7; 
+} */
 
   .container-fluid {
 /*       padding: 60px 50px; */
@@ -200,6 +206,28 @@ background: linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2,); /* W3C, IE 10+
     color:#00d3c7  ;
       font-size: 200px;
   }
+/*********************TEAM SECTION**************************************/
+
+#team {
+  margin-top:50px; 
+}
+
+.team-row {
+     background-image: url("http://i68.tinypic.com/2nlxz79.jpg");
+ background-repeat:no-repeat; 
+    background-size:contain;
+   -webkit-filter: grayscale(65%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(65%);
+}
+
+.team-head {
+  color:#fff!important; 
+  font-size:45px; 
+}
+
+.caption {
+  border-radius:3px; 
+}
 
 .about-border {
   border-bottom: 2px solid #00d3c7 ; 

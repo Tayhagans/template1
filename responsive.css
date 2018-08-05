@@ -146,6 +146,19 @@ margin:30px;
    -webkit-filter: grayscale(65%); /* Safari 6.0 - 9.0 */
     filter: grayscale(65%);
 }
+  
+  .team-row {
+     background-image: url("http://i68.tinypic.com/2nlxz79.jpg");
+ background-repeat:no-repeat; 
+    background-size:cover;
+   -webkit-filter: grayscale(65%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(65%);
+}
+
+  .team-head {
+  color:#000!important; 
+  font-size:60px; 
+}
 
 .ser-head{
   color:#fff;
