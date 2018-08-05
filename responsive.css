@@ -80,6 +80,12 @@
     -webkit-filter: grayscale(65%); /* Safari 6.0 - 9.0 */
     filter: grayscale(65%);
   }
+  
+  .navbar li a{
+    
+    background-color: transparent;  
+  }
+
 
 .navbar li a, .navbar .navbar-brand {
       color: #000 !important;

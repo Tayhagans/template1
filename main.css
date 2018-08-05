@@ -76,6 +76,13 @@ background-color:#fff;
     filter: grayscale(65%);
   }
 
+.navbar li a{
+    
+  background-color: #fff;
+  opacity: 0.8;
+  filter: alpha(opacity);
+}
+
 .navbar li a, .navbar .navbar-brand {
       color: #000 !important;
   }
