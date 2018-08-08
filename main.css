@@ -54,7 +54,10 @@ background-color:#fff;
 
 }
 
-
+iframe {
+  width:100%; 
+  height:350px; 
+}
 .navbar {
       margin-bottom: 0;
       background-color: #f4511e;
@@ -80,7 +83,7 @@ background-color:#fff;
     
   background-color: #fff;
   opacity: 0.8;
-  filter: alpha(opacity);
+  filter: opacity(1);
 }
 
 .navbar li a, .navbar .navbar-brand {
@@ -115,8 +118,8 @@ background-color:#fff;
   }
   .bg-grey {
 background: #F2F2F2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, );  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2,); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .trans-box {
@@ -126,7 +129,7 @@ background: linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2,); /* W3C, IE 10+
 /*   border: 1px solid #fff; */
 /*   opacity: 0.8;
   filter: alpha(opacity=60); /* For IE8 and earlier */
-} */
+} 
 .trans-box1 {
 /* margin:30px;  */
   padding:10px; 
@@ -286,7 +289,7 @@ blockquote {
 
 .clients {
   height:100px; 
-  weight:100px; 
+  width:100px; 
 }
   .item h4 {
       font-size: 15px;
